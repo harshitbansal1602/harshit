@@ -60,7 +60,7 @@ if( isset($_GET['search']) && !empty($_GET['search']) ){
 		$num = mysql_num_rows($query_run);
 		
 		if($num==0){
-			echo 'No Results Found!';
+			echo '<h4>No Results Found!</h4>';
 		}
 		else{
 			while( $row = mysql_fetch_assoc($query_run) ){
@@ -74,7 +74,7 @@ if( isset($_GET['search']) && !empty($_GET['search']) ){
 				  </div>
 				  <div class="card-stacked">
 					<div class="card-content">
-					  <p>'.$name.'</p>
+					  <h4>'.$name.'</h4>
 					</div>
 					<div class="card-action">
 					  <a href="#">This is a link</a>

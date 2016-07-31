@@ -9,15 +9,16 @@ require 'connect.inc.php';
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/home.css"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
     <body>
-	<nav>
+	<nav id="#nav">
     <div class="nav-wrapper blue darken-2">
-     <a href="#" class="brand-logo center"><i class="material-icons">headset</i>Musicizer</a>
+     <a href="#" class="brand-logo center"><i id="icon" class="material-icons">headset</i>Musicizer</a>
     </div>
   </nav>
 	<div class="row">

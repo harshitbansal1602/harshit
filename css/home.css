@@ -1,4 +1,15 @@
-nav {
-	line-height:100px;
-	font-size:32px;
+html { 
+  background: url(back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+#nav {
+	height:100px;
+	line-height:100px;
+}
+#icon {
+	line-height:100px;
+}
+
